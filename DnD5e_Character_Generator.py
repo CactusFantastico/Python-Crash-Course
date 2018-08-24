@@ -1,5 +1,6 @@
 import random
 rolls = []
+character = {}
 
 
 def dice_size_picker(dx):
@@ -17,8 +18,8 @@ def dice_size_picker(dx):
         return 12
     if dx == 'd20':
         return 20
-    else:
-        return dx.__str__()
+    if dx == 'd100':
+        return 100
 
 
 def dice(dnumber=1, dsize=6):
@@ -27,10 +28,30 @@ def dice(dnumber=1, dsize=6):
         rolls.append(random.randint(1, dsize))
 
 
-number_of_dice = int(input("How many dice would you like to roll? "))
-dice_picker = input("""what size dice would you like to roll?
-    Choices are d2, d4, d6, d10, d12, and d20""")
+print('Lets get started on our character!')
+print('At any moment you can pick from one of the options listed or '
+      'just press enter to let the computer randomly decide.')
 
-dice_size = dice_size_picker(dx=dice_picker)
-dice(dnumber=number_of_dice, dsize=dice_size)
+gender = input('First, tell me if your character is a boy or a girl? ')
+if gender.lower() == 'girl':
+    character['gender'] = 'girl'
+if gender.lower() == 'boy':
+    character['gender'] = 'boy'
+else:
+    gender = ['boy', 'girl']
+    character['gender'] = random.choice(gender)
+
+parents = input('Now, lets talk about your parents. A or B? ')
+if parents.lower() == 'a':
+    character['parents'] = 'a'
+if parents.lower() == 'b':
+    character['parents'] = 'b'
+else:
+    dice(dsize=100)
+    print(rolls)
+    if rolls.pop() >= 96:
+        character['parents'] = 'b'
+    else:
+        character['parents'] = 'a'
+print(character)
 print(rolls)

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c058c468-c978-4533-bf56-2bdb3b357320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DnD5e_Character_Generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DnD5e_Character_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DnD5e_Character_Generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,26 +25,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Test" value="1" />
-          <entry key="py" value="30" />
+          <entry key="py" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Python" value="27" />
-          <entry key="Scratch" value="4" />
+          <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="13440" />
+          <entry key="py" value="14247" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="12836" />
+          <entry key="Python" value="13643" />
           <entry key="Scratch" value="604" />
         </counts>
       </usages-collector>
@@ -55,24 +55,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="493">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
-                <element signature="e#57#310#0" />
-                <element signature="e#348#451#0" />
+                <element signature="e#57#350#0" />
+                <element signature="e#384#489#0" />
+                <marker date="1535095312961" expanded="true" signature="397:402" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dice.py">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <marker date="1535080755299" expanded="true" signature="52:312" ph="..." />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -121,6 +119,7 @@
         <option value="$PROJECT_DIR$/6-11_Cities.py" />
         <option value="$PROJECT_DIR$/8-1_Functions.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/dice.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py" />
         <option value="$PROJECT_DIR$/DnD5e_Character_Generator.py" />
       </list>
     </option>
@@ -180,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dice">
+  <component name="RunManager" selected="Python.DnD5e_Character_Generator">
     <configuration name="3-4_Guest_list" type="PythonConfigurationType" factoryName="Python">
       <module name="Python-Crash-Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,8 +316,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dice" />
         <item itemvalue="Python.DnD5e_Character_Generator" />
+        <item itemvalue="Python.dice" />
         <item itemvalue="Python.8-1_Functions" />
         <item itemvalue="Python.6-11_Cities" />
         <item itemvalue="Python.6-5_River_dictionaries" />
@@ -343,19 +342,33 @@
       <option name="project" value="LOCAL" />
       <updated>1534891416863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="latest version">
+      <created>1535080761247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535080761247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="latest version">
+      <created>1535092688594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535092688594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,6 +388,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="latest version" />
     <option name="LAST_COMMIT_MESSAGE" value="latest version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DnD5e_Character_Generator.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/2-3.py">
@@ -548,13 +572,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="493">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
-            <element signature="e#57#310#0" />
-            <element signature="e#348#451#0" />
+            <element signature="e#57#350#0" />
+            <element signature="e#384#489#0" />
+            <marker date="1535095312961" expanded="true" signature="397:402" ph="..." />
           </folding>
         </state>
       </provider>
