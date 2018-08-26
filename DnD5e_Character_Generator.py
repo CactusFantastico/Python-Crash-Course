@@ -32,6 +32,7 @@ print('Lets get started on our character!')
 print('At any moment you can pick from one of the options listed or '
       'just press enter to let the computer randomly decide.')
 
+#  Gender picker
 gender = input('First, tell me if your character is a boy or a girl? ')
 if gender.lower() == 'girl':
     character['gender'] = 'girl'
@@ -41,6 +42,25 @@ else:
     gender = ['boy', 'girl']
     character['gender'] = random.choice(gender)
 
+#  Race picker
+print('Lets pick a race. Choose the corresponding letter for your race of choice:')
+races = """Dwarf - a
+Elf - b
+Human - c
+Half-orc - b"""
+race_picker = input(races).lower()
+if race_picker == 'a':
+    character['race'] = 'Dwarf'
+if race_picker == 'b':
+    character['race'] = 'Elf'
+if race_picker == 'c':
+    character['race'] = 'Human'
+if race_picker == 'd':
+    character['race'] = 'Half-orc'
+if race_picker == '':
+    character['race'] = random.choice(races)
+
+#  Parents picker
 parents = input('Now, lets talk about your parents. A or B? ')
 if parents.lower() == 'a':
     character['parents'] = 'a'

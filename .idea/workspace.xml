@@ -15,11 +15,11 @@
     <session id="-628890373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,14 +37,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="14247" />
+          <entry key="py" value="14674" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="13643" />
+          <entry key="Python" value="14070" />
           <entry key="Scratch" value="604" />
         </counts>
       </usages-collector>
@@ -55,12 +55,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="393">
+              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
-                <element signature="e#57#350#0" />
-                <element signature="e#384#489#0" />
-                <marker date="1535095312961" expanded="true" signature="397:402" ph="..." />
+                <element signature="e#72#365#0" />
+                <element signature="e#402#507#0" />
+                <marker date="1535270779644" expanded="false" signature="397:402" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,7 +70,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -135,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535092688594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="latest version">
+      <created>1535095323161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535095323161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <marker date="1534891164503" expanded="true" signature="227:232" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,8 +570,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
-            <marker date="1535080755299" expanded="true" signature="52:312" ph="..." />
+            <element signature="e#72#365#0" />
+            <element signature="e#402#507#0" />
+            <marker date="1535270779644" expanded="false" signature="397:402" ph="..." />
           </folding>
         </state>
       </provider>
@@ -575,19 +588,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#57#350#0" />
-            <element signature="e#384#489#0" />
-            <marker date="1535095312961" expanded="true" signature="397:402" ph="..." />
-          </folding>
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
