@@ -48,17 +48,18 @@ races = """Dwarf - a
 Elf - b
 Human - c
 Half-orc - b"""
-race_picker = input(races).lower()
-if race_picker == 'a':
-    character['race'] = 'Dwarf'
-if race_picker == 'b':
-    character['race'] = 'Elf'
-if race_picker == 'c':
-    character['race'] = 'Human'
-if race_picker == 'd':
-    character['race'] = 'Half-orc'
+race_picker = input(races)
 if race_picker == '':
-    character['race'] = random.choice(races)
+    dice(dsize=4)
+    race_picker = rolls
+if race_picker == '1':
+    character['race'] = 'Dwarf'
+if race_picker == '2':
+    character['race'] = 'Elf'
+if race_picker == '3':
+    character['race'] = 'Human'
+if race_picker == '4':
+    character['race'] = 'Half-orc'
 
 #  Parents picker
 parents = input('Now, lets talk about your parents. A or B? ')
