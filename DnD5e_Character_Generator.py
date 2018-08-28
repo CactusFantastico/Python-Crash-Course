@@ -33,25 +33,28 @@ print('At any moment you can pick from one of the options listed or '
       'just press enter to let the computer randomly decide.')
 
 #  Gender picker
-gender = input('First, tell me if your character is a boy or a girl? ')
-if gender.lower() == 'girl':
-    character['gender'] = 'girl'
-if gender.lower() == 'boy':
-    character['gender'] = 'boy'
+gender = input('First, tell me if your character is a male or a female? ')
+if gender.lower() == 'female':
+    character['gender'] = 'Female'
+if gender.lower() == 'male':
+    character['gender'] = 'Male'
 else:
-    gender = ['boy', 'girl']
+    gender = ['Male', 'Female']
     character['gender'] = random.choice(gender)
+print('You are a {}.'.format(character['gender']))
 
 #  Race picker
 print('Lets pick a race. Choose the corresponding letter for your race of choice:')
-races = """Dwarf - a
-Elf - b
-Human - c
-Half-orc - b"""
+races = """ _____________
+|Dwarf    | 1 |
+|Elf      | 2 |
+|Human    | 3 |
+|Half-orc | 4 |
+ _____________"""
 race_picker = input(races)
 if race_picker == '':
     dice(dsize=4)
-    race_picker = rolls
+    race_picker = str(rolls.pop())
 if race_picker == '1':
     character['race'] = 'Dwarf'
 if race_picker == '2':
@@ -60,19 +63,22 @@ if race_picker == '3':
     character['race'] = 'Human'
 if race_picker == '4':
     character['race'] = 'Half-orc'
+print('You are a {} {}.'.format(character['gender'], character['race']))
 
 #  Parents picker
 parents = input('Now, lets talk about your parents. A or B? ')
-if parents.lower() == 'a':
-    character['parents'] = 'a'
-if parents.lower() == 'b':
-    character['parents'] = 'b'
-else:
+if parents == '':
     dice(dsize=100)
     print(rolls)
     if rolls.pop() >= 96:
-        character['parents'] = 'b'
+        parents = 'b'
     else:
-        character['parents'] = 'a'
+        parents = 'a'
+if parents.lower() == 'b':
+    character['parents'] = 'doesn\'t know their parents'
+if parents.lower() == 'a':
+    character['parents'] = 'knows their parents'
+print('You are a {} {} who {}.'.format(character['gender'], character['race'], character['parents']))
 print(character)
 print(rolls)
+print(race_picker)
