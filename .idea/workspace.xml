@@ -15,12 +15,12 @@
     <session id="-628890373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,14 +38,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="15613" />
-          <entry key="txt" value="14" />
+          <entry key="py" value="16067" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="15009" />
+          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="Python" value="15463" />
           <entry key="Scratch" value="604" />
         </counts>
       </usages-collector>
@@ -56,12 +56,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+            <state relative-caret-position="-560">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
               <folding>
                 <element signature="e#72#365#0" />
                 <element signature="e#402#507#0" />
-                <marker date="1535589441829" expanded="false" signature="397:402" ph="..." />
+                <marker date="1535660726292" expanded="false" signature="397:402" ph="..." />
               </folding>
             </state>
           </provider>
@@ -378,18 +378,26 @@
       <option name="project" value="LOCAL" />
       <updated>1535485649311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added race module for parents">
+      <created>1535589601607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535589601607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.3253012" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,7 +416,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="latest version" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest version" />
+    <MESSAGE value="Added race module for parents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added race module for parents" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,12 +598,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+        <state relative-caret-position="-560">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding>
             <element signature="e#72#365#0" />
             <element signature="e#402#507#0" />
-            <marker date="1535589441829" expanded="false" signature="397:402" ph="..." />
+            <marker date="1535660726292" expanded="false" signature="397:402" ph="..." />
           </folding>
         </state>
       </provider>

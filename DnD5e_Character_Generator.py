@@ -28,15 +28,21 @@ def dice(dnumber=1, dsize=6):
         rolls.append(random.randint(1, dsize))
 
 
-print('Lets get started on our character!')
+print('Lets get started on our character! '
+      'This program only handles numbers, so please use those when making your selection')
 print('At any moment you can pick from one of the options listed or '
-      'just press enter to let the computer randomly decide.')
+      'just enter 0(zero) to let the computer randomly decide.')
 
 #  Gender picker
-gender = input('First, tell me if your character is a male or a female? ')
-if gender.lower() == 'female':
+gender = input("""First, tell me if your character is a male or a female? 
+-------------
+| 0 | Random |
+| 1 | Male   |
+| 2 | Female |
+-------------""")
+if gender == 2:
     character['gender'] = 'Female'
-if gender.lower() == 'male':
+if gender == 1:
     character['gender'] = 'Male'
 else:
     gender = ['Male', 'Female']
@@ -44,39 +50,44 @@ else:
 print('You are a {}.'.format(character['gender']))
 
 #  Race picker
-print('Lets pick a race. Choose the corresponding letter for your race of choice:')
-races = """ _____________
+print('Lets pick a race. Choose the corresponding number for your race of choice:')
+races = """ -------------
+|Random   | 0 |
 |Dwarf    | 1 |
 |Elf      | 2 |
 |Human    | 3 |
 |Half-orc | 4 |
- _____________"""
-race_picker = input(races)
-if race_picker == '':
+ -------------"""
+race_picker = int(input(races))
+if race_picker == 0:
     dice(dsize=4)
-    race_picker = str(rolls.pop())
-if race_picker == '1':
+    print(rolls)
+    race_picker = rolls.pop()
+if race_picker == 1:
     character['race'] = 'Dwarf'
-if race_picker == '2':
+if race_picker == 2:
     character['race'] = 'Elf'
-if race_picker == '3':
+if race_picker == 3:
     character['race'] = 'Human'
-if race_picker == '4':
+if race_picker == 4:
     character['race'] = 'Half-orc'
 print('You are a {} {}.'.format(character['gender'], character['race']))
 
 #  Parents picker
-parents = input('Now, lets talk about your parents. A or B? ')
-if parents == '':
+parents = int(input("""Now, lets talk about your parents.
+ --------------
+ | 0      | r |
+ | 01-95  | a |
+ | 96-100 | b |
+ --------------
+ Please select the number of your choice: """))
+
+if parents == 0:
     dice(dsize=100)
     print(rolls)
-    if rolls.pop() >= 96:
-        parents = 'b'
-    else:
-        parents = 'a'
-if parents.lower() == 'b':
+if parents >= 96:
     character['parents'] = 'doesn\'t know their parents'
-if parents.lower() == 'a':
+else:
     character['parents'] = 'knows their parents'
 print('You are a {} {} who {}.'.format(character['gender'], character['race'], character['parents']))
 print(character)
