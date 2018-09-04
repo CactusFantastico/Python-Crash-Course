@@ -94,15 +94,15 @@ print(character)
 print(rolls)
 print(race_picker)
 
-#  Racial parents module
+#  Half-orc parents module
 if character['race'] == 'Half-orc':
     print("""Since you're a Half-orc, we need to establish what race your parents are.
     -----------
+    | 0   | r |
     | 1-4 | a |
     | 5-6 | b |
     | 7   | c |
     | 8   | d |
-    | 0   | r |
     ------------""")
     racial_parents = int(input("Please select the corresponding number of your choice"))
     if racial_parents == 0:
@@ -119,3 +119,30 @@ if character['race'] == 'Half-orc':
     else:
         character["Parent Race"] = "d"
 print(character)
+
+#  Half-elf parents module
+if character['race'] == 'Half-elf':
+    print("""Since you're a Half-orc, we need to establish what race your parents are.
+    -----------
+    | 0   | r |
+    | 1-4 | a |
+    | 5-6 | b |
+    | 7   | c |
+    | 8   | d |
+    ------------""")
+    racial_parents = int(input("Please select the corresponding number of your choice"))
+    if racial_parents == 0:
+        dice(dsize=8)
+        print(rolls)
+        racial_parents = rolls.pop()
+        print(racial_parents)
+    if racial_parents <= 4:
+        character["Parent Race"] = "a"
+    if racial_parents <= 6:
+        character["Parent Race"] = "b"
+    if racial_parents == 7:
+        character["Parent Race"] = "c"
+    else:
+        character["Parent Race"] = "d"
+print(character)
+
