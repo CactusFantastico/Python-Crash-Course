@@ -146,3 +146,15 @@ if character['race'] == 'Half-elf':
         character["Parent Race"] = "d"
 print(character)
 
+print("Now lets discus the nature of your birth. "
+      "You must pick from the following list, or enter 0 for random")
+print("""----------
+| 0     | Random 
+| 01-50 | Home 
+| 51-55 | Home of a family friend
+| 56-63 | Home of a healer or midwife
+| 64-65 | Carriage, cart or wagon
+| 66-68 | Barn, shed, or other outbuilding
+| 69-70 | Cave
+| 71-72 | Field
+----------""")
