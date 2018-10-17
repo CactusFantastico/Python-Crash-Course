@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c058c468-c978-4533-bf56-2bdb3b357320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/8-7_Albums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/8-7_Albums.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DnD5e_Character_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DnD5e_Character_Generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,63 +16,53 @@
     <session id="-628890373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.5" value="8" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Test" value="1" />
-          <entry key="py" value="31" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="30" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="16478" />
-          <entry key="txt" value="98" />
+          <entry key="py" value="17351" />
+          <entry key="txt" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="112" />
-          <entry key="Python" value="15874" />
+          <entry key="PLAIN_TEXT" value="147" />
+          <entry key="Python" value="16747" />
           <entry key="Scratch" value="604" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
+        <entry file="file://$PROJECT_DIR$/8-7_Albums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="152" column="15" lean-forward="true" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <element signature="e#72#365#0" />
-                <element signature="e#402#507#0" />
-                <marker date="1536290988587" expanded="false" signature="397:402" ph="..." />
+                <marker date="1539735737155" expanded="true" signature="46:51" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -122,6 +113,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/dice.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/dnd scratch.py" />
         <option value="$PROJECT_DIR$/DnD5e_Character_Generator.py" />
+        <option value="$PROJECT_DIR$/venv/8-7_Albums.py" />
+        <option value="$PROJECT_DIR$/8-7_Albums.py" />
       </list>
     </option>
   </component>
@@ -136,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +140,17 @@
             <path>
               <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (Python-Crash-Course) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (Python-Crash-Course) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DnD5e_Character_Generator">
+  <component name="RunManager" selected="Python.8-7_Albums">
     <configuration name="3-4_Guest_list" type="PythonConfigurationType" factoryName="Python">
       <module name="Python-Crash-Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,27 +227,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6-5_River_dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-Crash-Course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-5_River_dictionaries.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="8-1_Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Crash-Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +240,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-1_Functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8-7_Albums" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8-7_Albums.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +313,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.3-4_Guest_list" />
-      <item itemvalue="Python.6-5_River_dictionaries" />
       <item itemvalue="Python.6-11_Cities" />
       <item itemvalue="Python.8-1_Functions" />
       <item itemvalue="Python.DnD5e_Character_Generator" />
       <item itemvalue="Python.dice" />
+      <item itemvalue="Python.8-7_Albums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8-7_Albums" />
+        <item itemvalue="Python.8-1_Functions" />
         <item itemvalue="Python.DnD5e_Character_Generator" />
         <item itemvalue="Python.dice" />
-        <item itemvalue="Python.8-1_Functions" />
         <item itemvalue="Python.6-11_Cities" />
-        <item itemvalue="Python.6-5_River_dictionaries" />
       </list>
     </recent_temporary>
   </component>
@@ -399,19 +403,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536036635827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added text for birthplace locator">
+      <created>1536291013355</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536291013355</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,7 +442,8 @@
     <MESSAGE value="latest version" />
     <MESSAGE value="Added race module for parents" />
     <MESSAGE value="Aligned old pickers to current integer strategies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aligned old pickers to current integer strategies" />
+    <MESSAGE value="Added text for birthplace locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added text for birthplace locator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-1_Functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -614,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/DnD5e_Character_Generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
-          <caret line="152" column="15" lean-forward="true" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+          <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
           <folding>
             <element signature="e#72#365#0" />
             <element signature="e#402#507#0" />
@@ -627,6 +631,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8-1_Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/8-7_Albums.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8-7_Albums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1539735737155" expanded="true" signature="46:51" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
